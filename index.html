@@ -9,7 +9,16 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/styles.css"
+      media="screen and (min-width: 1400px)"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1399px)"
+      href="./styles/style-mobile.css"
+    />
     <link
       rel="icon"
       type="image/png"
@@ -23,6 +32,16 @@
     <div class="container">
       <div class="innerContent">
         <div class="left">
+          <div class="nav">
+            <div class="nav-logo">
+              <img src="./images/logo.svg" alt="main-logo" />
+            </div>
+            <div class="social">
+              <i class="fab fa-twitter fa-2x"></i>
+              <i class="fab fa-facebook-f fa-2x"></i>
+              <i class="fas fa-envelope fa-2x"></i>
+            </div>
+          </div>
           <img
             class="main-image"
             src="./images/illustration-main.svg"
@@ -41,7 +60,7 @@
             </div>
           </div>
           <h1 class="heading">
-            All your files in one secure location, accessible anywhere
+            All your files in one secure location, accessible anywhere.
           </h1>
           <div class="body">
             <p class="body-text">
@@ -55,7 +74,9 @@
           </div>
           <div class="input-field">
             <input class="email-field" type="text" />
-            <a class="btn" href="#">Sign up</a>
+            <div>
+              <a class="btn" href="#">Sign up</a>
+            </div>
           </div>
           <div class="footer">
             <a class="footer-text" href="#"><h6>Privacy Policy</h6></a>
